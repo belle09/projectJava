@@ -6,13 +6,14 @@ public class loopsTraining {
 		
 		int value = 0;
 		//int evenNumberValue = 2;
-		int oddNumberValue = 3;
-		// int plusOne = 1;
+		//int oddNumberValue = 3;
+		int plusOne = 1;
 		
 		while(value < 10) {
 			System.out.println("Hello " + value);
+			//System.out.println("Hello " + value++);
 		
-			value = value + oddNumberValue;
+			value = value + plusOne;
 			
 		}
 		
