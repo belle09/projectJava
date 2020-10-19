@@ -13,11 +13,18 @@ public class loopsTraining {
 			
 			sum = sum + i;
 			System.out.println("i + sum is: " + sum);
-		}
-
-		System.out.println("\n Overall, the sum of natural number is: " + sum);		
 		
+			//for(int gum = 0; gum<=sum; gum++ ) {
+			//	System.out.println("\n Overall, the sum of natural number is: " + gum);					
+			
+			//	gum = gum + i;
+			//} // inner for loop
+			
+		} // first for loop
+			System.out.println("\n Overall, the sum of natural number is: " + sum);
+			System.out.println(Math.random());
 	} // main method
+
 } // class
 
 
