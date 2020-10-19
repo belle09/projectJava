@@ -3,20 +3,21 @@ package tutorial1;
 public class loopsTraining {
 
 	public static void main(String[] args) {
+
+		int sum = 0;
+		int n = 1000;
 		
-		int value = 0;
-		//int evenNumberValue = 2;
-		//int oddNumberValue = 3;
-		//int plusOne = 1;
-		
-		while(value < 10) {
-			System.out.println("Hello " + value);
-			//System.out.println("Hello " + value++);
-		
-			value++;
+		for(int i=0; i<=n; i++) {
 			
+			System.out.println("\n The value of i is: " + i);
+			
+			sum = sum + i;
+			System.out.println("i + sum is: " + sum);
 		}
+
+		System.out.println("The value of sum is: " + sum);		
 		
 	} // main method
-
 } // class
+
+
