@@ -22,7 +22,10 @@ public class loopsTraining {
 			
 		} // first for loop
 			System.out.println("\n Overall, the sum of natural number is: " + sum);
-			System.out.println(Math.random());
+			
+			int ransom = (int)(Math.random()*64)+1;
+			System.out.println(ransom);
+			
 	} // main method
 
 } // class
