@@ -15,7 +15,7 @@ public class loopsTraining {
 			System.out.println("i + sum is: " + sum);
 		}
 
-		System.out.println("The value of sum is: " + sum);		
+		System.out.println("\n Overall, the sum of natural number is: " + sum);		
 		
 	} // main method
 } // class
