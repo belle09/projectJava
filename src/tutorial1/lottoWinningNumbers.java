@@ -6,7 +6,6 @@ public class lottoWinningNumbers {
 		// TODO Auto-generated method stub
 
 		
-
 		for (int one = 0; one < 8; one++) {
 			
 			int random = (int) (Math.random() * 64) + 1;
