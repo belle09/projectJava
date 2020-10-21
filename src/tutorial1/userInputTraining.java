@@ -6,13 +6,6 @@ public class userInputTraining {
 
 	public static void main(String[] args) {
 
-		/*Scanner input = new Scanner(System.in); 
-		
-		System.out.println("Enter a value: ");
-		int value = input.nextInt();
-		
-		System.out.println("You entered: " + value);
-*/
 		for(int f=0; f<4; f++) {
 			
 			Scanner input = new Scanner(System.in);
