@@ -4,15 +4,25 @@ public class ifTraining {
 
 	public static void main(String[] args) {
 
-		int sum = 20;
-		
-		if(sum < 10){
-			System.out.println("Yes, it's true");
-		} else if(sum > 30) {
-			System.out.println("No, it's false");
-		} else {
-			System.out.println("None of the above");
-		} // end if
+	    int year=2019;
+	    String str = "geeks";
+	    /*if(((year % 4 ==0) && (year % 100 !=0)) || (year % 400==0)){  
+	        System.out.println("LEAP YEAR");
+	        System.out.println(year);
+	    }  
+	    else{  
+	        System.out.println("COMMON YEAR");
+	        System.out.println(year);
+	    }  
+		*/
+	    
+	    if((year < 2020 && year != 2019)) {
+	    	System.out.println("First: " + year);
+	    } else if (str == "geeks") {
+	    	System.out.println(str);
+	    } else {
+	    	System.out.println("none: " + year);
+	    }
 		
 	} // end main
 
