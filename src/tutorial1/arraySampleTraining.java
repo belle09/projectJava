@@ -27,19 +27,13 @@ public class arraySampleTraining {
 		
 		// Two arrays, one has data while another has none
 		int[] id = {100,101,102,103};
-		int[] grades = {};
+		int[] grades = new int[3];
 		
+		for(int i=0; i<id.length; i++) {
 			
-			for(int sample = 0; sample<1; sample++) {
-				System.out.println("id: " + sample);
-				
-				for(int newsample: id) {
-					
-					System.out.println("grades: " + newsample);
-				} // inner for
-				
-			} // end for
-
+			System.out.println("Grades: " + grades);
+			
+		}
 			
 	} // end main
 
