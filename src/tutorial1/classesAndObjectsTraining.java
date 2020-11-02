@@ -1,29 +1,38 @@
 package tutorial1;
 
-class Person {
+class NewPerson {
 	
 	// Instance Variable
-	String name;
+	String name;	
 	int age;
-	
+	String address;
+	int phonenumber;
 	
 } // end class
 
 public class classesAndObjectsTraining {
 
 	public static void main(String[] args) {
-
-		Person person1 = new Person();
 		
-		person1.name = "James Reeves";
-		person1.age = 37;
+		NewPerson person1 = new NewPerson();
 		
-		Person person2 = new Person();
+		//person1.name = "James Reeves";
+		person1.address = "Marikina";
+		person1.phonenumber = 9119191;
+		person1.age = 37; 
+		
+		//System.out.println(person1.name);
+		
+		NewPerson person2 = new NewPerson();
 	
-		person2.name = "Angel Reeves";
+		//person2.name = "Angel Reeves";
+		person2.address = "Antipolo";
 		person2.age = 20;
+		person2.phonenumber = 9991919;
+		
+		//System.out.println(person2.name);
+		
 
-		System.out.println(person1.name);
-	}
+	} // end main
 
 }
