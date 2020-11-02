@@ -5,6 +5,7 @@ class Person {
 	// Instance variables (data or "state")
 	String name;
 	int age;
+	String address;
 	
 	// Classes contain
 	// 1. Data
@@ -12,7 +13,7 @@ class Person {
 	
 	void speak() {
 		for(int i=0; i<3; i++) {
-			System.out.println("My name is: " + name + " and I am " + age + " years old");	
+			System.out.println("My name is: " + name + " , I am " + age + " years old" + ", and I lived in " + address);	
 		} // end outer loop
 		
 	} // end speak method
@@ -31,6 +32,7 @@ public class subroutinesMethodTraining {
 		
 		person1.name = "Reuben Singe";
 		person1.age = 30; 
+		person1.address = "Auckland, New Zealand";
 		person1.speak();
 		person1.sayHello();
 		
@@ -39,6 +41,7 @@ public class subroutinesMethodTraining {
 		Person person2 = new Person();
 		person2.name = "Angel Chat";
 		person2.age = 20;
+		person2.address = "Auckland, New Zealand";
 		person2.speak();
 		person2.sayHello();
 		//System.out.println(person2.name);
