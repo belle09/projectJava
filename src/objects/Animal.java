@@ -9,6 +9,10 @@ public class Animal {
 	private double height;
 	private double weight;
 	
+	public Animal(String name) {
+		this.name = name;
+	}
+	
 	public String getName() {
 		return name;
 	}

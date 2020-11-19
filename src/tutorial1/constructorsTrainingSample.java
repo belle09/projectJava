@@ -5,7 +5,7 @@ import objects.Animal;
 public class constructorsTrainingSample {
 
 	public static void main(String[] args) {
-		Animal zoolandia = new Animal();
+		Animal zoolandia = new Animal("Angel");
 		
 		zoolandia.setName("James");
 		zoolandia.setAge(45);
