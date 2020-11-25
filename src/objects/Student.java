@@ -7,8 +7,8 @@ import Interface.Sports;
 public class Student extends Cook implements Interface.Student, Filipino, Sports {
 
 	@Override
-	public void study() {
-		System.out.println("Student is studying");
+	public void study(String title, int repetition) {
+		System.out.println("Student is studying " + title + " with repetition of " + repetition);
 	} // end method study()
 
 	@Override
