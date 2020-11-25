@@ -1,6 +1,6 @@
 package objects;
 
-public class StaticObject { // for general purposes
+public class StaticObject { // for general purposes // concrete class
 	
 	public static final String CompanyName = "ABC";
 	
