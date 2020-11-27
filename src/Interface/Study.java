@@ -1,6 +1,6 @@
 package Interface;
 
-public interface Student {
+public interface Study {
 	public void study(String title, int repetition);
-	public void getGrades();
+	public void getGrades(int grades);
 }
