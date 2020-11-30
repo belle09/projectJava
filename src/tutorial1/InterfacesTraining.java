@@ -26,6 +26,9 @@ public class InterfacesTraining {
 		
 		student1.setGrades(10);		// set value
 		grades(student1);			// call method
+		
+		exam(student1); 			// call method
+		exam(teacher1);				// call method
 	} // end main
 	
 	public static void aral(Study monkey) {
@@ -35,6 +38,10 @@ public class InterfacesTraining {
 	public static void grades(Study result) {
 		result.getGrades(0);
 	} // end method grades
+	
+	public static void exam(Study exams) {
+		exams.preliminaryExam("multiple choice");
+	} // end method exam()
 	
 	public static void exercise(Sports activities) {
 		activities.Chess();

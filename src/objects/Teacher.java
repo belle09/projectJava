@@ -20,5 +20,10 @@ public class Teacher extends Human implements Study, Sports {
 		System.out.println("Teacher is playing Chess");
 	} // end method Chess()
 
+	@Override
+	public void preliminaryExam(String questionType) {
+		System.out.println("The teacher's exam is " + questionType);
+	} // end method preliminaryExam()
+
 	
 } // end class Teacher

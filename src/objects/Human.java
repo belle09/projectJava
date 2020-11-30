@@ -37,6 +37,6 @@ public class Human {
 	}
 	public void setGrades(int grades) {
 		this.grades = grades;
-	}
+	}	
 	
 }

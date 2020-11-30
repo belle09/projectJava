@@ -37,4 +37,9 @@ public class Student extends Human implements Interface.Study, Filipino, Sports,
 		
 	}
 
+	@Override
+	public void preliminaryExam(String questionType) {
+		System.out.println("The student's exam is " + questionType);
+	}
+
 } // end class Student
