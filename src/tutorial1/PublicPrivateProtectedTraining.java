@@ -5,9 +5,12 @@ import Nature.Plant;
 /*
 	Private – works only within the same class.
 	Public – works from anywhere
-	Protected – works on subclass, and same package
+	Protected – works same class, subclass, and same package
 	No Modifier – works on same package only
 */
+class ExampleOfNoAccessSpecifier {
+	
+} // end class ExampleOfNoAccessSpecifier
 
 public class PublicPrivateProtectedTraining {
 
