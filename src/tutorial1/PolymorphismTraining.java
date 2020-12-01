@@ -1,6 +1,6 @@
 package tutorial1;
 
-import Interface.Materialspolymorphism;
+//import Interface.Materialspolymorphism;
 import objects.Plantpolymorphism;
 import objects.Treepolymorphism;
 
@@ -33,6 +33,11 @@ public class PolymorphismTraining {
 		
 		plant1.setPlantSize(20);		// call the reference object and set value
 		doGrow2(plant1);				// call the method and add the reference object
+		
+		plant2.setPlantTypes("Pteriodophytes");		// call the reference object and set value
+		PlantMaterials4(tree);						// call the method and add the reference object
+		
+		tree.treePlantTypes(); 						// call the reference object and the method
 	} // end main
 
 	public static void doGrow(Plantpolymorphism plant) {
@@ -60,5 +65,7 @@ public class PolymorphismTraining {
 		System.out.println(tree3.woodTypes("hardwoods"));
 	} // end method PlantMaterials3()
 	
-	
+	public static void PlantMaterials4(Treepolymorphism tree4) {
+		System.out.println(tree4.getPlantTypes());
+	} // end method PlantMaterials4()
 } // end class PolymorphismTraining

@@ -28,4 +28,9 @@ public class Treepolymorphism extends Plantpolymorphism implements Materialspoly
 		return "The type of wood is " + woodType;
 	} // end method woodTypes()
 	
+	public void treePlantTypes() {
+		System.out.println("The type of plant is " + plantTypes);
+	} // end method treePlantTypes()
+	
+	
 } // end class Treepolymorphism
